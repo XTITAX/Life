@@ -18,7 +18,7 @@ setup(
         'numpy',
     ],
     package_data={
-        'life': ['examples/*'],  # исправлено на 'life'
+        'Life': ['examples/*'],  # исправлено на 'life'
     },
     classifiers=[
         'Development Status :: 3 - Alpha',
