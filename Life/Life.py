@@ -1,5 +1,10 @@
 import tkinter as tk
-from life import GameOfLife
+from .LifeC import GameOfLife
+
+def StartLife(width, height, cell_size):
+    root = tk.Tk()
+    gui = LifeGUI(root, width=width, height=height, cell_size=cell_size)
+    root.mainloop()
 
 class LifeGUI:
     def __init__(self, master, width=10, height=10, cell_size=30):
@@ -61,7 +66,3 @@ class LifeGUI:
                         fill="black"
                     )
 
-def StartLife(width, height, cell_size):
-    root = tk.Tk()
-    gui = LifeGUI(root, width=width, height=height, cell_size=cell_size)
-    root.mainloop()
