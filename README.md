@@ -21,7 +21,7 @@ import Life
 Life.StartL(Ширина, Высота, Размер клетки)
 ```
 
-Пример работы
+Пример работы:
 
 ```python
 import Life
