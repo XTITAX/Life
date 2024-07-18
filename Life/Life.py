@@ -1,7 +1,7 @@
 import tkinter as tk
 from .LifeC import GameOfLife
 
-def StartLife(width, height, cell_size):
+def StartL(width, height, cell_size):
     root = tk.Tk()
     gui = LifeGUI(root, width=width, height=height, cell_size=cell_size)
     root.mainloop()
