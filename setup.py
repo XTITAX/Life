@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/XTITAX/Life',
-    packages=find_packages(include=['life', 'life_gui']),  # исправлено на 'life'
+    packages=find_packages(include=['Life']),  # исправлено на 'life'
     include_package_data=True,
     install_requires=[
         'numpy',
