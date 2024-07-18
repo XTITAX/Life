@@ -18,5 +18,14 @@ python -m pip install git+https://github.com/XTITAX/Life.git
 import Life
 
 # Запустить игру Жизнь
-Life.StartLife(Ширина, Высота, Размер клетки)
+Life.StartL(Ширина, Высота, Размер клетки)
+```
+
+Пример работы
+
+```python
+import Life
+
+# Запускаем игру Жизнь
+Life.StartL(20, 20, 20)
 ```
